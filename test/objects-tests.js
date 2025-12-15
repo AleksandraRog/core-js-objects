@@ -585,7 +585,7 @@ describe('objects-tasks', () => {
           fn,
           /Element, id and pseudo-element should not occur more than one time inside the selector/,
 
-          '\nPlease throw an exception "Element, id and pseudo-element should not occur more than one time inside the selector" ' +
+          `\nPlease throw an exception "Element, id and pseudo-element should not occur more than one time inside the selector" ` +
             'if element, id or pseudo-element occurs twice or more times'
         );
       });
